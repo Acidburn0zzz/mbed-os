@@ -78,7 +78,7 @@ jobs:
     steps:
       - 
         name: unarchive artefacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-info
           
@@ -140,7 +140,7 @@ jobs:
     steps:
       - 
         name: unarchive artefacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-info
           
@@ -217,7 +217,7 @@ jobs:
     steps:
       - 
         name: unarchive artefacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-info
         
